@@ -1,0 +1,31 @@
+Asocijacija evropskih aerodroma hoće da putnicima ponudi način da optimalno isplaniraju svoje
+putovanje avionom. Potrebno je napraviti aplikaciju koja će im u tome pomoći.
+
+Kada putnik putuje od jednog do drugog grada često ne postoji direktna avionska linija. Tada su putnici
+prinuđeni da koriste više letova tako da do željenog odredišta dođu presedanjem na jednom ili više
+aerodroma. Dalje, nekada je poželjno da putnik izbegne neki aerodrom, na primer zbog nepovoljnih
+vremenskih uslova. Isto tako, nekada je potrebno da let obavezno ide preko nekog aerodroma.
+
+Naš zadatak je da napišemo Java command-line aplikaciju koja za zadati polazni i dolazni aerodrom
+računa najkraću moguću putanju korišćenjem jednog leta ili kombinacijom više letova. Za dužinu jednog
+leta se smatra vazdušno rastojanje između aerodroma. Vreme poletanja i dužina trajanja leta se ne
+uzimaju u obzir.
+
+Ulaz u aplikaciju su(NA KOMANDNA LINIJA):
+	▫ Fajl sa spiskom aerodroma i njihovim GPS koordinatama (podrazumevano "airports.json")
+	▫ Fajl sa spiskom letova (podrazumevano "routes.json")
+	▫ IATA kod polaznog aerodroma
+	▫ IATA kod dolaznog aerodroma
+
+Izlaz iz aplikacije treba da sadrži listu letova koji u kombinaciji čine najkraću putanju od polaznog do
+dolaznog aerodroma i ukupnu dužinu. Svaki let u listi treba da sadrži polazni aerodrom, dolazni
+aerodrom i udaljenost između njih na osnovu GPS koordinata. Na primer:
+
+	Beograd Frankfurt 1054
+	Frankfurt Amsterdam 366
+	Ukupno 1420 
+
+
+Zadatak nije lak.
+Obavezno uradite prvo pod pretpostavkom da ce putnik uvek putovati u grad za koji postoji direktna linija.
+Tek kad to proradi pokusajte da uradite ako ne postoji direkta linija da nadjete najbolju rutu. 

@@ -1,0 +1,21 @@
+Sastaviti program na programskom jeziku Java koji vrši konverziju datoteke sa filmskim titlovima iz
+jednog formata u drugi. Program dobija ime ulazne datoteke i ime izlazne datoteke putem argumenata komandne linije. Program treba da procita ulaznu datoteku izvrsi odgovarajucu konverziju i ispise rezultat konverzije u izlazni fajl.
+
+Smer konverzije se takodje unosi preko argumenata komandne linije(kao int). U zavisnosti od vrednosti radi se jedna od sledecih konverzija
+	0 - iz TIME bazirane MPlayer MPsub datoteke (.SUB) u MicroDVD (.TXT ili .SUB) datoteku;
+	1 - iz TIME bazirane MPlayer MPsub datoteke (.SUB) u SubRip (.SRT) datoteku;
+	2 - iz SubRip (.SRT) datoteke u MicroDVD (.TXT ili .SUB) datoteku;
+	3 - iz SubRip (.SRT) datoteke u TIME baziranu MPlayer MPsub datoteku;
+	4 - iz MicroDVD (.TXT ili .SUB) datoteke u SubRip (.SRT) datoteku;
+	5 - iz MicroDVD (.TXT ili .SUB) datoteke u TIME baziranu MPlayer MPsub datoteku;
+
+Primer izgleda argumenata komandne linije:
+	0 ulaz.sub izlaz.txt
+Oznacava da se radi konverzija TIME bazirane MPlayer MPsub datoteke ulaz.sub u MicroDVD datoteku izlaz.txt.
+
+Uz ovaj tekst je takodje prilozena i dokumentacija(u kojoj su detaljno objasnjeni formati) i primeri formata(orvoriti ih pomocu notepad++ ili sublime text-a)
+
+Potrudite se da resenje bude sto vise u skladu sa principima objektno-orijentisanog programiranja!!!!!!!!!!
+Sto znaci da treba napraviti odgovarajuce klase sa odgovarajucim metodama. Metoda treba da radi samo one stvari koje se mogu zakljuciti iz njenog imena(npr ako se metoda zove print, ona treba samo da printa ono sto joj se posalje a ne da pored toga radi i neke obrade podataka, racunanja....). 
+
+Obavezno je napisati program koji moze da uradi bar 2 od ovih 6 konverzija(ne morate implementirati sve konverzije ali bar 2 morate).
