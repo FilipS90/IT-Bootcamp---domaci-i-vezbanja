@@ -1,0 +1,24 @@
+﻿   1. Izdvojiti podatke o svim predmetima.
+   2. Izdvojiti podatke o svim studentima rođenim u Beogradu.
+   3. Izdvojiti mesta u kojima su rođeni studenti.
+   4. Izdvojiti nazive predmeta koji imaju više od 6 bodova.
+   5. Izdvojiti šifre i nazive predmeta koji imaju između 8 i 15 bodova.
+   6. Izdvojiti podatke o ispitima na kojima student ima 81, 76 ili 59 bodova.
+   7. Izdvojiti podatke o ispitima na kojima student nema 81, 76 ili 59 bodova.
+   8. Izdvojiti nazive predmeta i njihovu cenu za samofinansirajuće studente izraženu u dinarima. Jedan bod košta 1500 dinara.
+   9. Izdvojiti nazive predmeta i njihovu cenu za samofinansirajuće studente izraženu u dinarima. Jedan bod košta 1500 dinara. Između kolone naziv i kolone cena dodati kolonu u kojoj će za svaku vrstu biti ispisano Cena u dinarima.
+   10. Prikazati podatke o predmetima. Rezultat urediti po bodovima
+       a. u rastućem poretku;
+       b. u opadajućem poretku;
+       c. u rastućem poretku i po nazivu u opadajućem poretku.
+   11. Prikazati ime, prezime i datum rođenja studenata koji su rođeni između 4.2.1995. i 10.10.1995. i urediti rezultat prema prezimenu studenta.
+   	Hint: Guglajte format datuma u sql i kako se porede
+   12. Za svaki rok koji je održan u 2015. godini i u kome su svi polagani ispiti i položeni, tj. nema ispita koji nije položen, izdvojiti oznaku roka, broj položenih ispita u tom roku i broj studenata koji su položili ispite u tom roku.
+   13. Ispisati Ime i prezime studenata koji su polozili ispit iz predmeta sa sifrom 1001 , 2015. u roku jan
+   14. Ispisati prosecan broj poena osvojenih na ispitu iz predmeta sa sifrom 1021, za 2015. godinu za sve rokove osim apr
+   15. Ispisati broj studenata koji su polozili bilo koji ispit (ako je jedan student polozio vise ispita,racunati ga samo jednom)
+   16. Ispisati prosecan broj poena studenta sa brojem indeksa 20130023
+   17. Ispisati prosecnu ocenu studenata za rok jan 2015.
+   18. Ispisati nazive onih predemeta koji nose 6 poena i za njih je odrzan ispit u januaru 2015.
+   
+

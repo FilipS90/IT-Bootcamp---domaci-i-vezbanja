@@ -1,0 +1,17 @@
+Domaci:
+	1. Ispisati koliko kurseva postoji na svakom odseku
+		ime odseka - broj kurseva
+		koristiti group by
+	2. Ispisati imena kursa koji pohadja vise od 3 studenta. (koristiti group by)
+	3. Ispisati srednji broj studenata na kursevima.
+	4. Ispisati imena kurseva koje pohadja student sa sifrom 1.
+	5. Ispisati imena studenata koji pohadja vise od 2 kursa.
+	6. Ispisati imena svih studenata koji imaju predavanja u ucionici 111 sa sifrom na dan Pon. 
+	7. Ispisati ime kursa koji predaje profesor sa sifrom 7 a koji pohadja najveci broj studenata.
+	8. Ispisati imena svih kurseva koji su preduslov kursu sa sifrom 4. (Tabela preduslov ima 2 strana kljuca koji oba referisu na tabelu Kurs, strani kljuc SifKP je kurs koji je preduslov kursu sa sifrom SifK)
+	9. Ispisati koliko kurseva svaki kurs ima kao preduslov.(koristiti group by)
+		Naziv kursa - broj kurseva koji su mu preduslov
+	10. Za svakog profesora koliko studenata slusa njegovo predavanje na dan Pon.
+		Ime - broj studenata
+		koristiti group by
+

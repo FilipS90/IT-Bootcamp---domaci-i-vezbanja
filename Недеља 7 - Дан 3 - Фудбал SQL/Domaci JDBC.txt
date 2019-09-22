@@ -1,0 +1,26 @@
+Na programskom jeziku Java napisati klasu koja ima sledece metode:
+	-metodu za konektovanje na bazu FudbalskiSavez.db
+	-metodu za diskonektovanje sa baze
+	-metodu koja ispisuje imena svih fudbalera u bazi i timove za koje igraju
+		ime fudbalera - ime tima
+	-metodu koja ispisuje sve fudbalere Manchester United-a
+	-metodu koja za svakog fudbalera ispisuje koliko golova je postigao
+	-metodu koja ispisuje ime fudbalera koji je postigao najvise golova
+	-metodu koja ispisuje koliko crvenih i koliko zutih kartona je svaki igrac dobio
+		ime fudbalera - broj crvenih - broj zutih
+	-metodu koja ispisuje imena gradova u kojima je fudbaler igrao(parametar metode je id fudbalera, fudbaler je igrao u gradovima gde je njegov tim igrao kao gostujuci + u gradu u kom igra njegov tim)
+	
+	-metodu koja ubacuje fudbalera u bazu(parametri metode su ime fudbalera i ime tima)
+	-metodu koja ubacuje tim u bazu(parametri metode su ime tima i mesto)
+	-metodu koja ubacuje utakmicu u bazu(metoda prima ime gostujuceg tima, ime domaceg tima, kolo, ishod, godinu), potrebno je izvrsiti i ubacivanja u Tabelu igrao za sva igrace koji su igrali na utakmici(poziciju igraca mozete ostaviti kao NULL)
+
+	-metodu koja iz baze brise tim(parametar je ime tima), da bi se mogao obrisati tim, moraju se prvo obrisati svi igraci koji igraju u tom timu, da bi se obrisali svi igraci, moraju se prvo obrisati svi golovi i kartoni i igrao za svakog igraca, a da bi se oni obrisali moraju se prvo obrisati sve utakmice u kojima je svaki igrac igrao
+
+Id nije autoincrement u bazi, tako da prilikom ubacanja u tabelu, da bi saznali koji id treba da postavite za novi podatak koji ubacujete u tabelu, morate da pronadjete najveci id u toj tabeli i novi id postavite na taj najveci + 1.
+
+FUDBALER (IdFud, Ime, IdTim)
+TIM (IdTim, Naziv, Mesto)
+UTAKMICA (IdUta, IdDomaci, IdGost, Kolo, Ishod, Godina) - ishod moze imati vrednosti 1, X, 2
+IGRAO (IdFud, IdUta, PozicijaIgraca)
+GOL (IdGol, IdUta, IdFud, RedniBrGola, Minut)
+KARTON (IdKar, IdUta, IdFud, Tip, Minut) - tip moze imati vrednosti vrednosti Z, C

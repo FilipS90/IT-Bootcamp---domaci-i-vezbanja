@@ -1,0 +1,40 @@
+Za bazu datu u prilogu napisati SQL upite koji:
+	1. Ispisuje sve informacije koje postoje u bazi o drzavnim fakultetima
+	2. Ispisuje samo imena svih privatnih fakulteta
+	3. Ispisuje broj drzavnih fakulteta
+	4. Ispisuje prosecan broj studenata(AVG) 
+	5. Ispisuje prosecan broj studenata(AVG) na drzavnim fakultetima
+	6. Ispisuje sve gradove u kojima se nalaze fakulteti(ako se u nekom gradu nalazi vise fakulteta, ispisati taj grad samo jednom)
+	7. Ispisati ukupan broj studenata
+	8. Ispisati imana i prezimena svih studenata
+	9. Ispisati sve informacije o studentima 3. godine 
+	10. Ispisati studenta sa najvecim prosekom
+	11. Ispisati studenta 3. godine sa najvecim prosekom
+	12. Ispisati srednju vrednost proseka studenata 4. godine
+	13. Ipisati srednju vrednost proseka muskih studenata
+	14. Ispisati sve studente koji jos nisu polozili ni jedan predmet(oni koji nisu polozili ni jedan predmet imaju vrednost NULL za prosek)
+	15. Ispisati sve studente koji su polozili bar jedan predmet(nemaju NULL za prosek)
+
+	Dodatno(nije obavezno)
+	16. Ispisati sve studente ciji prosek ocena je veci od srednje vrednosti proseka svih studenata
+
+
+-----------------------------------------------------------------------------------------------
+Domaci predajete tako sto predate samo .sql file u kome ste kucali resenja zadataka.
+Resenja svih zadataka treba da se nalaze u tom fajlu.
+Iznad svakog resenja treba da stoji komentar koji kaze na koji zadatak se odnosi resenje(molim vas radite redom).
+
+Format:
+
+--Resenje 1. zadatka
+SELECT *
+FROM NESTO
+WHERE NESTODRUGO>0
+
+--Resenje 2. zadatka
+SELECT *
+FROM NESTOTRECE
+WHERE NESTOCETVRTNO<0
+
+.....
+
